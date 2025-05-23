@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cinema_react/static/css/main.279911c8.css",
-    "main.js": "/cinema_react/static/js/main.09cd7343.js",
+    "main.css": "/cinema_react/static/css/main.ad63a80c.css",
+    "main.js": "/cinema_react/static/js/main.6ac3f1d9.js",
     "static/media/vecteezy_3d-vibrant-abstract-fluid-element-with-transparent-background_52782790.png": "/cinema_react/static/media/vecteezy_3d-vibrant-abstract-fluid-element-with-transparent-background_52782790.9198bb549ac8a2972501.png",
     "static/media/vecteezy_fly-out-love-shape-from-gift-box-3d-item_47311473.png": "/cinema_react/static/media/vecteezy_fly-out-love-shape-from-gift-box-3d-item_47311473.09b49b35cc0ed04b0afb.png",
     "static/media/boxicons.svg": "/cinema_react/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -13,11 +13,11 @@
     "static/media/boxicons.ttf": "/cinema_react/static/media/boxicons.db9ddb1898dbd76badca.ttf",
     "static/media/boxicons.woff2": "/cinema_react/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/cinema_react/index.html",
-    "main.279911c8.css.map": "/cinema_react/static/css/main.279911c8.css.map",
-    "main.09cd7343.js.map": "/cinema_react/static/js/main.09cd7343.js.map"
+    "main.ad63a80c.css.map": "/cinema_react/static/css/main.ad63a80c.css.map",
+    "main.6ac3f1d9.js.map": "/cinema_react/static/js/main.6ac3f1d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.279911c8.css",
-    "static/js/main.09cd7343.js"
+    "static/css/main.ad63a80c.css",
+    "static/js/main.6ac3f1d9.js"
   ]
 }
