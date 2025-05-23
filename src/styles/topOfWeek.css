@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+.top_movies_container{
+    width:1216px;
+    margin:50px auto;
+    overflow:hidden
+}
+.top_movies{
+    display:grid;
+    grid-template-columns:repeat(10,300px);
+    grid-template-rows:400px;
+    gap:100px;
+    overflow-x:scroll;
+    overflow-y:hidden
+}
+.top_movie_card{
+    display:flex;
+    align-items:center
+}
+.girland{
+    position: absolute;
+    width:1216px;
+    opacity: 0.5;
+    z-index:-10
+}
+.top_movie_card img{
+    box-shadow: -10px 0px 20px 0px;
+    border-radius: 10px;
+    height:95%
+}
+.top_movie_card span{
+    font-size:180px;
+    font-weight:900;
+    color:white;
+    z-Index:-2;
+    transform:rotate(-10deg);
+    position:relative;
+    right:-30px;
+    font-family: 'Rock 3D';
+}
+.top_movies::-webkit-scrollbar {
+    
+  display: none; /* Chrome, Safari, Opera */
+
+}
+.top10{
+    font-family: 'Rock 3D';
+}

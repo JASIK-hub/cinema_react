@@ -1,0 +1,14 @@
+.film_title_input{
+    background-color:transparent;
+    border:none;
+    outline: none;
+    color:white;
+    width:50%;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.search_global_container{
+    display: flex;
+    align-items: center;
+    gap:50px
+}

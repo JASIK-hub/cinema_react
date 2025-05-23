@@ -1,0 +1,91 @@
+@import './App.css';
+header{
+    width:1216px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header_upper_line{
+    display:flex;
+    justify-content: space-between;
+}
+.headerNavMenu,.headerNav,.headerSearch{
+    display: flex;
+    align-items: center;
+}
+.headerNavMenu{
+    gap:10px
+}
+.header_Nav_Menu_Li,.headerFilterSection{
+    color:var(--gray);
+    list-style: none;
+    font-weight: bold;
+}
+.header_Nav_Menu_Li{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bx {
+    color:var(--gray);
+    font-size: 20px;
+    transition: 0.2s;
+}
+.headerFilterSection{
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+.headerFilterSection button{
+    border:none;
+     font-weight: bold;
+     font-size: 18px;
+     cursor:pointer
+}
+.headerSearch{
+    gap:10px;
+    background-color: transparent;
+    color:var(--gray);
+    transition: 0.2s;
+}
+.LoginBtn{
+    color:white;
+    background-color: var(--light-purple-opacity);
+    padding:10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.header_Nav_Menu_Li:hover{
+    color:white
+}
+.LoginBtn:hover{
+    transform: scale(1.1);
+}
+.headerSearch:hover {
+  color: white; 
+}
+.headerSearch:hover .bx{
+    color:white
+}
+.searching_header_toggled{
+    background-color: #0b0b0b;
+    width:100%;
+    height:80%;
+    z-index:100;
+    position: fixed;
+    top:0;
+    backdrop-filter: blur(20px);
+    margin: 0;
+}
+.header_upperLine_searching{
+    width:1216px;
+    margin: 0 auto;
+}
+.blur_overlay{
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    top:0;
+    height:100%;
+    position: fixed;
+    width:100%
+}

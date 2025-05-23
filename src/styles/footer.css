@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.icons_row{
+    display:flex;
+    gap:10px
+}
+.footer_inner_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_info_global{
+    display: flex;
+    gap:5rem
+}
+a{
+    text-decoration: none;
+    color:gray;
+    font-family:'Space Grotesk' ;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.footer_info h4{
+    color:white;
+    margin:0;
+    font-size: 20px;
+}
+.footer_outer_container p{
+    color:gray;
+    max-width: 600px;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --gray:rgb(158, 157, 157);
+    --dark-bg:#121212;
+    --light-purple-opacity:rgba(48, 29, 83, 0.816);
+    --light-purple:rgb(32, 14, 68);
+    --button:#1e1e1e
+}
+body{
+    background-color:var(--dark-bg)
+}
+*{
+    font-family:'Roboto';
+}
