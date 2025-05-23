@@ -5,11 +5,16 @@ import RenderSearch from '../smallElems/search'
 import { useState } from 'react'
 function Header(){
     const [showSearch,setSearch]=useState(false)
-    function enableSearch(){
+    function enableSearch({button}){
+        console.log(button)
         setSearch(true)
     }
     return(
-    <div className={showSearch ? 'blur_overlay' : ''}>
+    <div className={showSearch ? 'blur_overlay' : ''} onClick={(e)=>{
+        if(e.target.classList.contains('blur_overlay')){
+            setSearch(false)
+        }
+    }}>
         <header className={showSearch ? 'searching_header_toggled' :'simple_header'}>
             <span className='blur'></span>
             <div className={showSearch ? 'header_upperLine_searching' :'header_upper_line'}>

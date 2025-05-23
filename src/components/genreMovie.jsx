@@ -18,11 +18,11 @@ function GenreMovie({genreId,genreText}){
         },[])
     return(
         <>
-            {initalSt.results.length > 0 && <DisplayGenre genreData={initalSt.results} genre={genreText}/>}
+            {initalSt.results.length > 0 && <DisplayGenre genreData={initalSt.results} genre={genreText} genreId={genreId}/>}
         </>
     ) 
 }
-function DisplayGenre({genreData,genre}){
+function DisplayGenre({genreData,genre,genreId}){
     const [state,newState]=useState(0)
     const [like,isLiked]=useState(false)
     const navigate = useNavigate();
@@ -74,7 +74,7 @@ function DisplayGenre({genreData,genre}){
                             <p style={{color:'var(--gray)',margin:'0px',fontSize:'12px'}}>Free</p>
                         </div>
                     ))}
-                    <div className='moreCard'>
+                    <div className='moreCard' onClick={()=>navigate(`/genre/${genreId}`)}>
                         <p>Show More</p>
                     </div>
                 </div>

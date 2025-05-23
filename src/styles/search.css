@@ -7,8 +7,41 @@
     padding: 10px 0px;
     font-size: 15px;
 }
-.search_global_container{
+.search_global_header{
     display: flex;
     align-items: center;
     gap:50px
+}
+.searchedFilms_container{
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+    gap:50px;
+    grid-template-rows: 150px;
+    overflow-x: scroll;
+
+}
+.searchedFilms_container::-webkit-scrollbar{
+    display: none;
+}
+.searched_film_container img{
+    width:100%;
+    border-radius: 5px;
+}
+.search_global_container{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    gap:30px
+}
+.searched_film_container{
+    display: flex;
+    align-items: start;
+    gap:8px
+}
+.searched_film_title{
+    color:white
+}
+.searchedfilm_info p{
+    margin-top: 0;
+    
 }

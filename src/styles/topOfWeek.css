@@ -38,9 +38,7 @@
     font-family: 'Rock 3D';
 }
 .top_movies::-webkit-scrollbar {
-    
-  display: none; /* Chrome, Safari, Opera */
-
+  display: none;
 }
 .top10{
     font-family: 'Rock 3D';
