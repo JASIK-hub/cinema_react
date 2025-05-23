@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cinema_react/static/css/main.279911c8.css",
+    "main.js": "/cinema_react/static/js/main.433c706a.js",
+    "static/media/vecteezy_3d-vibrant-abstract-fluid-element-with-transparent-background_52782790.png": "/cinema_react/static/media/vecteezy_3d-vibrant-abstract-fluid-element-with-transparent-background_52782790.9198bb549ac8a2972501.png",
+    "static/media/vecteezy_fly-out-love-shape-from-gift-box-3d-item_47311473.png": "/cinema_react/static/media/vecteezy_fly-out-love-shape-from-gift-box-3d-item_47311473.09b49b35cc0ed04b0afb.png",
+    "static/media/boxicons.svg": "/cinema_react/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/vecteezy_abstract-moving-line-wave-element_44761665.png": "/cinema_react/static/media/vecteezy_abstract-moving-line-wave-element_44761665.374d32c5ee3670c8de30.png",
+    "static/media/abstract-liquid-glass-transparent-ribbon.png": "/cinema_react/static/media/abstract-liquid-glass-transparent-ribbon.391a9d8eae7c31315a4d.png",
+    "static/media/christmas-string-lights-isolated-glowing-realistic-garlands-dark-background-holiday-shimmering.png": "/cinema_react/static/media/christmas-string-lights-isolated-glowing-realistic-garlands-dark-background-holiday-shimmering.e7a0264240835a5a635e.png",
+    "static/media/boxicons.eot": "/cinema_react/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/cinema_react/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/cinema_react/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/cinema_react/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/cinema_react/index.html",
+    "main.279911c8.css.map": "/cinema_react/static/css/main.279911c8.css.map",
+    "main.433c706a.js.map": "/cinema_react/static/js/main.433c706a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.279911c8.css",
+    "static/js/main.433c706a.js"
+  ]
+}
