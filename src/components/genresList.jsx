@@ -1,5 +1,6 @@
 import { useEffect,useState} from "react";
 import '../styles/Home.css'
+import { useNavigate } from "react-router-dom";
 
 function GenresList(){
     const [state,setState]=useState({genres:[]})
@@ -23,6 +24,7 @@ function GenresList(){
         )
     }
     function RenderGenres({data}){
+        const navigate=useNavigate()
         const [initialState,newState]=useState(0)
         function slideRight(){
             newState(prev=>{
@@ -43,7 +45,7 @@ function GenresList(){
                     <div style={{transform:`translateX(-${initialState*1236}px)`,display:'flex',gap:'20px',transition:'transform 0.5s ease'}}>
                         {data.map((genre)=>{
                             return(
-                            <button className='genreListBtn' key={genre.id} >
+                            <button className='genreListBtn' key={genre.id} onClick={()=>navigate(`/genre/${genre.id}`)}>
                                 {genre.name}
                             </button>
                             )

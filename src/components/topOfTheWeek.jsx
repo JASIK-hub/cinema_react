@@ -14,7 +14,7 @@ function TopMovies(){
         }).then(res=>res.json())
         .then(data=>{
             setState(data)
-            console.log(data)
+
         })
     },[])
     return(

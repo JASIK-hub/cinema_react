@@ -74,7 +74,6 @@ header{
     z-index:100;
     position: fixed;
     top:0;
-    backdrop-filter: blur(20px);
     margin: 0;
 }
 .header_upperLine_searching{
@@ -83,6 +82,7 @@ header{
 }
 .blur_overlay{
     backdrop-filter: blur(10px);
+    
     z-index: 100;
     top:0;
     height:100%;

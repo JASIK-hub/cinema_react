@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <section class="container">
+    <div class="form">
+      <header>Login</header>
+      {% if error %}
+        <div class="error">{{ error }}</div>
+      {% endif %}
+      <form action="\login" method="POST">
+        <div class="field">
+          <input type="email" placeholder="Email" required name="email"/>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="Password" required name="password"/>
+          <i class='bx bx-hide eye-icon'></i>
+        </div>
+        <div class="form-link">
+          <a href="#">Forgot password?</a>
+        </div>
+        <div class="field">
+          <button type="submit">Login</button>
+        </div>
+        <div class="form-link">
+          <span>Don't have an account? <a href="/register">Signup</a></span>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
